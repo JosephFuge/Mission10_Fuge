@@ -1,4 +1,6 @@
 
+using Microsoft.EntityFrameworkCore;
+
 namespace Mission10_FugeAPI
 {
     public class EFBowlerRepository : IBowlerRepository
@@ -8,6 +10,6 @@ namespace Mission10_FugeAPI
         public EFBowlerRepository(BowlerContext tempContext) {
             _bowlerContext = tempContext;
         }
-        public IEnumerable<Bowler> Bowlers => _bowlerContext.Bowlers;
+        public IEnumerable<Bowler> Bowlers => _bowlerContext.Bowlers.Include("Team");
     }
 }

@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Mission10_FugeAPI
 {
@@ -7,12 +8,16 @@ namespace Mission10_FugeAPI
     {
         [Key]
         public int TeamID { get; set; }
-        
-        [Required]
-        [ForeignKey("CaptainID")]
-        public int CaptainID { get; set; }
 
         [Required]
+        public string TeamName { get; set; } = "";
+        
+        [Required]
+        [ForeignKey("Captain")]
+        public int? CaptainID { get; set; }
+
+        [Required]
+        [JsonIgnore]
         public Bowler? Captain { get; set; }
 
     }

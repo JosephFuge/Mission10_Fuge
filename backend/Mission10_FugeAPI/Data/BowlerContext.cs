@@ -9,5 +9,6 @@ namespace Mission10_FugeAPI
         }
 
         public DbSet<Bowler> Bowlers { get; set; }
+        public DbSet<Team> Teams { get; set; }
     }
 }

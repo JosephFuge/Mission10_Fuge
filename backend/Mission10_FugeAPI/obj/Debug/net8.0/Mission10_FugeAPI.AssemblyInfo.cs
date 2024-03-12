@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission10_FugeAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a683b782ba0d4c623dcf0cba9af85132e471db47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f77fa305e42516911708231f4bce6ac976a553de")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission10_FugeAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission10_FugeAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
