@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hFNbp70pf5GSo+09Uz2nEdHHEmcbfQptbUahLNdaT1smA/0u6HnSue3+d504NyIzkOGepZ0iAXRa8+ymeNTI+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\josep\\source\\repos\\Mission10_Fuge\\backend\\Mission10_FugeAPI\\Mission10_FugeAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josep\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\josep\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\josep\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\josep\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\josep\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\josep\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
