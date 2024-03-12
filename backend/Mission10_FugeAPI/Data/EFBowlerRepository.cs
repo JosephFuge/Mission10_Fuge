@@ -10,6 +10,8 @@ namespace Mission10_FugeAPI
         public EFBowlerRepository(BowlerContext tempContext) {
             _bowlerContext = tempContext;
         }
-        public IEnumerable<Bowler> Bowlers => _bowlerContext.Bowlers.Include("Team");
+        public IEnumerable<Bowler> Bowlers(String[] searchTeams) {
+            return _bowlerContext.Bowlers.Include("Team").Where(b => searchTeams.Contains(b.Team.TeamName));
+        }
     }
 }

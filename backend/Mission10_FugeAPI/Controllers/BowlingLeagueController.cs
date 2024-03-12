@@ -17,7 +17,7 @@ namespace Mission10_FugeAPI.Controllers
         [HttpGet]
         public IEnumerable<Bowler> Get()
         {
-            return _bowlerRepo.Bowlers.ToArray();
+            return _bowlerRepo.Bowlers(["Marlins", "Sharks"]).ToArray();
         }
     }
 }

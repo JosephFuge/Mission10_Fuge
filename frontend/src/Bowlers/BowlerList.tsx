@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Bowler } from '../types/Bowler';
 import { BowlerCard } from './BowlerCard';
+import '../css/bowlers.css';
 
 export function BowlerList() {
   const [bowlerList, setBowlerList] = useState<Bowler[]>([]);
@@ -19,10 +20,10 @@ export function BowlerList() {
   }, []);
 
   return (
-    <>
+    <div className="bowlerlist">
       {bowlerList.map((bowlerItem: Bowler, index: number) => (
         <BowlerCard key={index} {...bowlerItem} />
       ))}
-    </>
+    </div>
   );
 }
