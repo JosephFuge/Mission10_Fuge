@@ -16,6 +16,7 @@ namespace Mission10_FugeAPI
         [ForeignKey("Captain")]
         public int? CaptainID { get; set; }
 
+        // JsonIgnore annotation stops JSON serializer from infinitely looping on the Captain Bowler and his or her team
         [Required]
         [JsonIgnore]
         public Bowler? Captain { get; set; }

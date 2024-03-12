@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Allow CORS and specify which port it is allowed from
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
@@ -35,6 +36,7 @@ app.UseHttpsRedirection();
 
 app.UseRouting();
 
+// Enable Cors from a specific origin
 app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();

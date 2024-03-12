@@ -6,6 +6,7 @@ import '../css/bowlers.css';
 export function BowlerList() {
   const [bowlerList, setBowlerList] = useState<Bowler[]>([]);
 
+  // Fetch list of bowlers from local server and update screen
   useEffect(() => {
     async function fetchBowlers() {
       const bowlerResponse = await fetch(

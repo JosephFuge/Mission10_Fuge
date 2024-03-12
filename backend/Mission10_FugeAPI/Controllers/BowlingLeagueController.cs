@@ -14,6 +14,7 @@ namespace Mission10_FugeAPI.Controllers
             _bowlerRepo = tempBowlerRepo;
         }
 
+        // Fetch the bowlers from the Marlins and Sharks teams and return them
         [HttpGet]
         public IEnumerable<Bowler> Get()
         {
